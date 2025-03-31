@@ -16,6 +16,8 @@ body {
   margin-bottom: 20px;
   padding: 40px;
   width: 980px;
+  text-align: justify;
+  
 }
 
 .frame {
@@ -66,6 +68,14 @@ a:link,
 a:visited {
   color: blue;
 }
-.zold{
-  background-color: lime;
+a,a:active,a:hover{
+  text-decoration: none;
+}
+a :hover{
+  color: yellow;
+}
+table{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
